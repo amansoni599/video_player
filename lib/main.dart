@@ -71,7 +71,7 @@ class _HomeState extends State<Home> {
       body: Column(children: [
         SizedBox(
           height: 400,
-          width: 400,
+          width: 300,
           child: VideoPlayer(controller),
         ),
         Row(
